@@ -1,0 +1,45 @@
+@import "header";
+@import "extend";
+@import "footer";
+@import "mixin";
+
+
+$colores:
+red
+green
+blue
+black
+
+textos {
+    color: nth(green, 4);
+}
+
+$maps: (
+    youtube:red
+    facebook:blue
+    ig:brown
+
+    border-top: 1px solid black,
+    border-bottom: 4px dotted green
+);
+
+social {
+    background-color: map-get($maps, ig);
+    border-bottom: map-get($maps,border-bottom);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

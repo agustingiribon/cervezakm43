@@ -1,0 +1,27 @@
+/* extends */
+
+%flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo-header {
+    background-color:green;
+    @extend %flexbox;
+
+}
+
+.logo-footer {
+    @extend %flexbox
+}
+.logo-main {
+    @extend %flexbox
+}
+
+%mensaje {
+    border: 1px solid green;
+    border-radius: 4px;
+    padding: 20px;
+}

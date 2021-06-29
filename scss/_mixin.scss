@@ -1,0 +1,12 @@
+@mixin boton {
+    font-size: 2em;
+    border: 1px solid green;
+    margin: 0 auto;
+
+}
+
+.buttom {
+    @include boton;
+}
+
+

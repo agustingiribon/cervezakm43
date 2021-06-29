@@ -1,0 +1,30 @@
+$color-general: white;
+
+header {
+    color: black;
+    nav {
+        color: black;
+        ul {
+            color: black;
+            li {
+                color: black;
+                a {
+                    color: black;
+                    &:hover {
+
+                        color:$color-general;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
